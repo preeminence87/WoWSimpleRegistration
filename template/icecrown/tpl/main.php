@@ -55,8 +55,6 @@ require_once 'header.php'; ?>
                             Adjutant Online provides highly secured and robust backend services, as part of a personal passion project.
                             If you're here, then you were given special access tokens to reach this site. Please let me know if you need help!
                         </p>
-                        <p><?php elang('edit_on'); ?> template/<?php echo $antiXss->xss_clean(get_config("template")); ?>
-                            /tpl/main.php</p>
                     </div>
                     <div class="tab-pane fade in <?php echo(!(empty($error_error) && empty($success_msg)) ? 'active' : ''); ?>"
                          id="pills-register">
