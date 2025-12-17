@@ -50,17 +50,10 @@ require_once 'header.php'; ?>
                         <?php elang('welcome_message'); ?>
                         <hr style="border-color: #00CCFF;">
                         <p style="text-align: justify">
-                            This is a sample text, This is a sample text, This is a sample text, This is a sample
-                            text, This is a sample text, This is a sample text, This is a sample text, This is a
-                            sample text, This is a sample text, This is a sample text, This is a sample text, This
-                            is a sample text, This is a sample text, This is a sample text, This is a sample text,
-                            This is a sample text, This is a sample text, This is a sample text, This is a sample
-                            text, This is a sample text, This is a sample text, This is a sample text, This is a
-                            sample text, This is a sample text, This is a sample text, This is a sample text, This
-                            is a sample text, This is a sample text, This is a sample text, This is a sample text,
-                            This is a sample text, This is a sample text, This is a sample text, This is a sample
-                            text, This is a sample text, This is a sample text, This is a sample text, This is a
-                            sample text, This is a sample text.
+                            This is my private Wrath of the Lich King server dedicated to my friends and family!
+                            It is based on AzerothCore patch level 3.3.5a (Build 12340).
+                            Adjutant Online provides highly secured and robust backend services, as part of a personal passion project.
+                            If you're here, then you were given special access tokens to reach this site. Please let me know if you need help!
                         </p>
                         <p><?php elang('edit_on'); ?> template/<?php echo $antiXss->xss_clean(get_config("template")); ?>
                             /tpl/main.php</p>
