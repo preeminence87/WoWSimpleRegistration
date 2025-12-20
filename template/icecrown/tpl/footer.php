@@ -6,12 +6,12 @@
  **/
 ?>
 <div class="row">
-    <div class="text-center box1">
-        Developed by <a href="http://masterking32.com">MasterkinG32.CoM</a>
-        - <?php echo "Load " . (new SebastianBergmann\Timer\ResourceUsageFormatter)->resourceUsageSinceStartOfRequest(); ?>
+    <div class="credits">
+        Built by Nate from IT | Adjutant Online</a>
     </div>
 </div>
 </div>
 </div>
 </body>
+
 </html>

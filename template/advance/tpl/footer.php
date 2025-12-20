@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by Amin.MasterkinG
- * Website : MasterkinG32.CoM
- * Email : lichwow_masterking@yahoo.com
- * Date: 04/02/2020 - 6:55 PM
- */
 ?>
 </main>
 <footer id="footer">
@@ -20,11 +14,7 @@
     </div>
     <div class="container footer-bottom clearfix">
         <div class="credits">
-            Developed by <a href="http://masterking32.com">MasterkinG32.CoM</a>
-            - <?php echo "Load " . (new SebastianBergmann\Timer\ResourceUsageFormatter)->resourceUsageSinceStartOfRequest(); ?>
-            <BR>
-            Tempelate Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> and Modified by <a
-                    href="http://masterking32.com">Amin.MasterkinG</a>
+            Built by Nate from IT | Adjutant Online</a>
         </div>
     </div>
 </footer>
