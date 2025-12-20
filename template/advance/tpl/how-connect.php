@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by Amin.MasterkinG
- * Website : MasterkinG32.CoM
- * Email : lichwow_masterking@yahoo.com
- * Date: 04/02/2020 - 6:55 PM
- */
 ?>
 <section id="connect" class="services">
     <div class="container">
