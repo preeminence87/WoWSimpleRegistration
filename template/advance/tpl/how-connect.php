@@ -23,7 +23,10 @@
                 <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="100">
                     <i class="bx bx-download"></i>
                     <h4><?php elang('download_game'); ?></h4>
-                    <p><?php elang('create_account_tip2'); ?></p>
+                    <p><?php
+                        $win = '<a href="' . htmlspecialchars(get_config('download_windows_url') ? get_config('download_windows_url') : '#') . '">Windows</a>';
+                        echo sprintf(lang('create_account_tip2'), $win, htmlspecialchars(get_config('game_version')));
+                    ?></p>
                 </div>
                 <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
                     <i class="bx bx-game"></i>

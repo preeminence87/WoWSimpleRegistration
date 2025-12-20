@@ -84,6 +84,9 @@ $config['multiple_email_use'] = false; // Change to true to allow creation of mu
 // Template Selection - Choose which template to use for the appearance of your website.
 $config['template'] = 'light'; // Available templates: light, advance, icecrown, kaelthas, battleforazeroth.
 
+// Download URLs - set the Windows client download URL (leave empty if you don't host it)
+$config['download_windows_url'] = 'http://example.com/wotlk-windows.zip'; // Windows client download URL
+
 // SMTP Configuration - Required for sending out emails (e.g., password recovery).
 $config['smtp_host'] = 'smtp1.example.com'; // SMTP host address.
 $config['smtp_port'] = 587; // SMTP port.

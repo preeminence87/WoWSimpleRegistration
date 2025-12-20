@@ -1,9 +1,4 @@
 <?php
-/**
- * @author Amin Mahmoudi (MasterkinG)
- * @copyright    Copyright (c) 2019 - 2024, MasterkinG32. (https://masterking32.com)
- * @link    https://masterking32.com
- **/
 
 $language['lang'] = 'english';
 $language['custom_css'] = '';
@@ -41,13 +36,17 @@ $language['edit_on'] = 'Edit on';
 $language['server_address'] = 'Server Address';
 $language['realmlist'] = 'Realmlist';
 $language['create_account'] = 'Create Account';
-$language['create_account_tip1'] = 'First of all, you must create an account. The account is used to log into both the game and our website. Click here to open the registration page';
+// $language['create_account_tip1'] = 'First of all, you must create an account. The account is used to log into both the game and our website. Click here to open the registration page';
+$language['create_account_tip1'] = 'Create an account on the Register page. The email address is not required for verification, but the administrator can use it to help you with password resets. The username is what you use to log into the game.';
 $language['download_game'] = 'Download the game';
-$language['create_account_tip2'] = 'Install World of Warcraft. You can download it (legally) from here: Windows or Mac. Make sure to upgrade to our current supported patch, which is '. get_config('game_version').'. Patch mirrors can be found here.';
+// $language['create_account_tip2'] = 'Install World of Warcraft. You can download it (legally) from here: Windows or Mac. Make sure to upgrade to our current supported patch, which is 3.3.5a (12340). Patch mirrors can be found here.';
+$language['create_account_tip2'] = 'Install the Wrath of the Lich King client. You can download it here: %s.';
 $language['setup_game'] = 'Setup the game';
-$language['create_account_tip3'] = 'Open up the "World of Warcraft" directory. The default directory is "C:\Program Files\World of Warcraft". When you\'ve found it, open up the directory called "data", then go into the directory called either enUS or enGB, depending on your client language.';
+// $language['create_account_tip3'] = 'Open up the "World of Warcraft" directory. The default directory is "C:\Program Files\World of Warcraft". When you've found it, open up the directory called "data", then go into the directory called either enUS or enGB, depending on your client language.';
+$language['create_account_tip3'] = 'Extract the client wherever you like. I recommend placing it at the root of your user folder at "C:\Users\<you>\World of Warcraft - WotLK", this way you do not need Administrator rights to run the client and it will be outside  your OneDrive sync scope if you have that running. Open up the directory then drill down to data -> enUS.';
 $language['change_server_address'] = 'Change server address';
-$language['create_account_tip4'] = 'Erase all text and change it to:';
+// $language['create_account_tip4'] = 'Erase all text and change it to:';
+$language['create_account_tip4'] = 'Locate the realmlist.wtf file and open with a text editor. Erase the existing text then change it to:';
 $language['server_rules'] = 'Server Rules';
 $language['read_before_register'] = 'Instructions to get started and logged into Icecrown.';
 $language['read_our_rules'] = 'Please, Read our rules.';
